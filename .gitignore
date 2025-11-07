@@ -1,43 +1,6 @@
-﻿# --- Python ---
+﻿.venv/
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-*.dist-info/
-
-# Virtual envs
-.venv/
-venv/
-env/
-
-# Local env/config
-.env
-*.local
-
-# Build / cache
-.build/
-.cache/
-.mypy_cache/
-.pytype/
-pytest_cache/
-
-# Logs & artifacts
 *.log
-logs/
-tmp/
 debug_input*.wav
-debug_input_16k*.wav
-*.png
-
-# Editors/OS
 .vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Models / big caches (kept local)
-models/
-CTranslate2/
-whisper/
